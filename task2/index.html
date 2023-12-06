@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card" >
+        <form >
+<h2 style="margin: 20px;">Step1: Your Details</h2>
+<label class="cards">
+   <p>Name</p> 
+   <input type="text" placeholder="First and last Name">
+</label> 
+  <label class="cards"> 
+    <p>Email</p> 
+    <input type="email" placeholder="example@domain.com">
+</label >
+   <label class="cards">
+    <p>Phone</p>
+     <input type="text " placeholder="0705552827">
+    </label>
+        </form>
+
+        <form>
+<h2>Step2: Delivery Adress</h2>
+           
+            <label class="textarea">
+                <p>Adress</p> <textarea name="textInput" id="textArea" cols="27" rows="7"></textarea>
+            </label>
+            <label class="cards">
+                <p>Post Code</p> <input type="text" style="margin-left: -20px;">
+            </label>
+            <label class="cards">
+           <p>Country</p> <input type="text" style="margin-left: -8px;">
+            </label>
+
+    
+
+
+        </form>
+        <form>
+            <h2>Step3 Card Details</h2>
+<label class="cards1">
+    <p>Card type</p> 
+    <div style="display:flex; align-items: center; gap:20px;margin-top:20px;">
+        <div style="display: flex;align-items: center;">
+             <input class="radio" type="radio"><img src="visa.jpg">VISA
+            </div>
+        <div style="display: flex;align-items: center;">
+            <input class="radio" type="radio"><img src="mastercard.jpg">MASTERCARD
+        </div>
+    </div>
+</label>
+<label class="cards">
+    <p>Card Number</p><input type="number">
+</label>
+<label class="cards" style="margin-left: -10px;">
+    <p>Security Code</p> <input type="number">
+</label>
+<label class="cards">
+    <p>Name on card</p> <input type="text">
+</label>
+
+        </form>
+       <div class="button">
+         <button>Buy It</button>
+       </div>
+
+
+    </div>
+</body>
+</html>
